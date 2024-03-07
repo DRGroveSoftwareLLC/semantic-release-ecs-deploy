@@ -1,9 +1,0 @@
-{
-  "extends": "@eclass/semantic-release-npm-github-config",
-  "packageRules": [
-    {
-      "packageNames": ["aws-sdk"],
-      "schedule": ["before 3am on the first day of the month"]
-    }
-  ]
-}
