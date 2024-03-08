@@ -1,5 +1,5 @@
 {
-  "name": "@eclass/semantic-release-ecs-deploy",
+  "name": "@drgrovellc/semantic-release-ecs-deploy",
   "version": "2.0.10",
   "description": "semantic-release plugin to deploy ecs services",
   "main": "src/index.js",
@@ -9,58 +9,27 @@
     "test": "echo \"no tests\""
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=20"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eclass/semantic-release-ecs-deploy.git"
+    "url": "https://github.com/drgrovesoftwarellc/semantic-release-ecs-deploy.git"
   },
   "keywords": [
     "release",
     "semantic-release",
     "ecs"
   ],
-  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "author": "Danny Grove <danny@drgrovellc.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eclass/semantic-release-ecs-deploy/issues"
+    "url": "https://github.com/drgrovesoftwarellc/semantic-release-ecs-deploy/issues"
   },
-  "homepage": "https://github.com/eclass/semantic-release-ecs-deploy#readme",
+  "homepage": "https://github.com/drgrovesoftwarellc/semantic-release-ecs-deploy#readme",
   "dependencies": {
-    "@semantic-release/error": "^2.1.0",
-    "aws-sdk": "2.847.0",
+    "@semantic-release/error": "4.0.0",
+    "aws-sdk": "2.1573.0",
     "awscred": "1.5.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "@eclass/eslint-config": "2.0.0",
-    "@eclass/semantic-release-npm-github-config": "3.0.1",
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
-    "@types/chai": "4.2.15",
-    "@types/mocha": "8.2.0",
-    "@types/node": "13.13.45",
-    "@types/semantic-release": "17.2.0",
-    "chai": "4.3.0",
-    "eslint": "7.20.0",
-    "eslint-plugin-array-func": "3.1.7",
-    "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jsdoc": "32.0.2",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.3.1",
-    "eslint-plugin-security": "1.4.0",
-    "eslint-plugin-sonarjs": "0.6.0",
-    "eslint-plugin-standard": "4.1.0",
-    "husky": "4.3.8",
-    "lint-staged": "10.5.4",
-    "prettier-standard": "16.4.1",
-    "semantic-release": "17.3.8",
-    "typescript": "4.1.5"
-  },
-  "peerDependencies": {
-    "semantic-release": ">=11.0.0 <18.0.0"
   },
   "eslintConfig": {
     "extends": "@eclass"
@@ -100,5 +69,21 @@
   },
   "nyc": {
     "extends": "nyc-config-common"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.0.3",
+    "@commitlint/config-conventional": "19.0.3",
+    "@eclass/semantic-release-npm-github-config": "4.0.0",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@types/chai": "4.3.12",
+    "@types/mocha": "10.0.6",
+    "@types/node": "20.11.25",
+    "@types/semantic-release": "20.0.6",
+    "chai": "5.1.0",
+    "husky": "9.0.11",
+    "prettier-standard": "15.0.1",
+    "semantic-release": "23.0.2",
+    "typescript": "5.4.2"
   }
 }
