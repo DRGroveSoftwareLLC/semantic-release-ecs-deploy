@@ -31,12 +31,6 @@
     "aws-sdk": "2.1573.0",
     "awscred": "1.5.0"
   },
-  "eslintConfig": {
-    "extends": "@eclass"
-  },
-  "eslintIgnore": [
-    "coverage"
-  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",

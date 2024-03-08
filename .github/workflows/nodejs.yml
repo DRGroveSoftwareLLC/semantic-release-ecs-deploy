@@ -19,8 +19,6 @@ jobs:
           ${{ runner.os }}-build-
           ${{ runner.os }}-
     - run: npm ci
-    - name: eslint
-      run: npx eslint .
     - name: test
       run: npm test
       env:
